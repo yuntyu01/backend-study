@@ -8,5 +8,7 @@ public class p2438 {
         for (int i = 1; i <= num; i++) {
             System.out.println("*".repeat(i));
         }
+
+        
     }
 }
