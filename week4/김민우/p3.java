@@ -1,4 +1,4 @@
-package 김민우.second;
+package week4.김민우;
 
 public class p3 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package 김민우.first;
+package 김민우;
 
 import java.util.Scanner;
 import java.util.function.IntUnaryOperator;

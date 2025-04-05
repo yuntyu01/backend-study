@@ -1,4 +1,4 @@
-package 김민우.second;
+package week4.김민우;
 
 import java.util.Arrays;
 
