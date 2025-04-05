@@ -1,4 +1,4 @@
-package 김민우;
+package 김민우.first;
 
 import java.util.Scanner;
 import java.util.function.Predicate;
