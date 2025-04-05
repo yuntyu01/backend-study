@@ -19,10 +19,11 @@ public class RockPaperScissors {
             }
 
             Scanner sc = new Scanner(System.in);  // 입력 객체 생성
-            System.out.printf("가위바위보 중에서 입력하세요: ");
+            System.out.print("가위바위보 중에서 입력하세요: ");
             String user_str = sc.nextLine();
 
             System.out.println(user_str);
+
             if (user_str.contains("그만")) {
                 System.out.println("프로그램을 종료합니다.");
                 break;
@@ -65,5 +66,6 @@ public class RockPaperScissors {
                 }
             }
         }
+        
     }
 }

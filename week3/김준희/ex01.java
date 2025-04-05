@@ -6,6 +6,9 @@ public class ex01 {
             for (int i=1; i<=num-1; i++) {
                 sum1 = sum1 + i;
             }
+
+//            sum1 = num * (num - 1) / 2;
+            
             if (sum1 == (2*num+3)) {
                 System.out.println(num);
             }
