@@ -10,7 +10,7 @@ on:        # 트리거 정의
 
 jobs:      # 필수  블록
   checkout:   # job ID
-    runs-on: ubuntu-latest   # 실행 환경
+    runs-on: self-hosted   # 실행 환경
     steps:                   # job 안의 단계
       - uses: actions/checkout@v3
 
