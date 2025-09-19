@@ -5,6 +5,8 @@ on:        # 트리거 정의
     branches: [ main ]
   pull_request:
     branches: [ main ]
+    
+  workflow_dispatch:
 
 jobs:      # 필수 블록
   build:   # job ID
