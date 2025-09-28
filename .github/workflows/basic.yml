@@ -22,7 +22,7 @@ jobs:      # 필수  블록
       - name: build with gradle
         run: ./gradlew build
       - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: greetings-jar
           path: build/libs
